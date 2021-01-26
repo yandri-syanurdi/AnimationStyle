@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sweet Alert</title>
+		<link rel="stylesheet" type="text/css" href="sweetalert-master/dist/sweetalert.css">
+		<script type="text/javascript" src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	</head>
+	<body>
+		<button onclick="normal()">Normal Alert</button>
+		<button onclick="sweet()">Sweet Alert</button>
+		
+		<script>
+			function normal () {
+				alert("oops Anda tidak memiliki ijin");
+			}
+			function sweet (){
+				swal("STOP", "Anda tidak memiliki ijin","error")
+			}
+		</script>
+	</body>
+</html>

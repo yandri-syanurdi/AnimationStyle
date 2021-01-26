@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <title>Loading Document - idr corner</title>
+    <style>
+      #loading{
+        width:50px;
+        height:50px;
+        border: solid 5px #ccc;
+        border-top-color:#ff6a00;
+        border-radius:100%;
+        
+        position:fixed;
+        left:0;
+        top:0;
+        right:0;
+        bottom:0;
+        margin: auto;
+        
+        animation: putar 2s linear infinite;
+      }
+      
+      @keyframes putar{
+        from{transform:rotate(0deg)}
+        to{transform:rotate(360deg)}
+      }
+    </style>
+  </head>
+  <body>
+    <div id="loading"></div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/GIpYM2UZCLo" frameborder="0" allowfullscreen></iframe>
+    <script>
+      var loading = document.getElementById('loading');
+      
+      window.addEventListener('load',function(){
+        loading.style.display="none";
+      });
+    </script>
+  </body>
+</html>

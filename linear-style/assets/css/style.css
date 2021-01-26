@@ -1,0 +1,15 @@
+
+
+.bg-gradiant{
+    height: 100vh;
+    width: 100%;
+    /* background-image: linear-gradient(green, red); */
+    /* background-image: linear-gradient(45deg,green, red); */
+    /* background-image: linear-gradient(45deg,#3e32a8, #e310c7); */
+    /* background-image: linear-gradient(90deg,#3e32a8, #e310c7); */
+    background-image: linear-gradient(120deg,#3e32a8, #e310c7);
+    
+    /* https://uigradients.com/#SunnyDays
+    https://www.eggradients.com/category/green-gradient
+    http://www.brandgradients.com/green-gradient/ */
+}

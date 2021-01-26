@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Preloader Loading Website</title>
+    
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+    
+  </head>
+  
+  <body>
+    <div id="preloader"></div>
+    <div class="container">
+      <header>
+        <h1>Membuat Preloader</h1>
+        <h3>Loading Animasi Website</h3>
+      </header>
+      
+    </div>
+  </body>
+  <script type="text/javascript">
+    $(window).load(function() {$("#preloader").delay(3000).fadeOut("slow"); })
+  </script>
+</html>
+   
+  

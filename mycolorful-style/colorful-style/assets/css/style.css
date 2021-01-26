@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+.intro {
+    height: 100vh;
+    /* background: linear-gradient(#ff6f69, #ffcc5c); */
+    /* background: radial-gradient(#ff6f69, #ffcc5c); */
+    /* background: conic-gradient(#ff6f69, #ffcc5c); */
+    background: linear-gradient(#ff6f69, #ffcc5c);
+}

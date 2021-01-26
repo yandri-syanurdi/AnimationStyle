@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.wrap {
+    height: 100%;
+    background-image: linear-gradient(to right, #75b5ec 0%, #2b76b9 100%);
+}
+#particles {
+    height: 100%;
+    width: 100%;
+}
+.fish {
+    position: absolute;
+}
+.fish-1 {
+    top: 15%;
+    animation: fish-1 25s linear infinite;
+}
+.fish-6 {
+    top: 10%;
+    animation: fish-1 35s linear infinite;
+}
+@keyframes fish-1 {
+    0% {
+        transform: translateY(-50px);
+        left: -25%;
+    }
+    25% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(50px);
+    }
+    75% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-50px);
+        left: 150%;
+    }
+}
+
+.fish-3 {
+    top: 85%;
+    animation: fish-moving 25s linear infinite;
+}
+.fish-5 {
+    top: 80%;
+    animation: fish-moving 40s linear infinite;
+}
+@keyframes fish-moving {
+    0% {
+        transform: translateY(-50px);
+        right: -25%;
+    }
+    25% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(50px);
+    }
+    75% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-50px);
+        right: 150%;
+    }
+}
+.logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

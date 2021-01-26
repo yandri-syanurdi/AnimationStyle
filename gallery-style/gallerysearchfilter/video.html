@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	  <title>Gallry Search Filter</title>
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	  <link href="https://fonts.googleapis.com/css?family=Alata|Josefin+Sans|Maven+Pro&display=swap" rel="stylesheet">
+</head>
+<style >
+	.card{
+		box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+		transition: 0.3s;
+	}
+
+	.card:hover{
+		box-shadow: 0 12px 24px rgba(0,0,0,0.2);
+	}
+	.container{
+		padding: 2px 16px;
+	}
+body{
+	font-family: Gotham;
+}
+
+</style>
+
+<script >
+	$(document).ready(function(){
+		$("#myinput").on("keyup",function(){
+		var value = $(this).val().toLowerCase();
+		$("#card div").filter(function(){
+			$(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
+
+		});
+	});
+		});
+
+
+</script>
+
+
+
+<body >
+	<div id ="portfolio" class="text-center paddsection">
+		<div class="section-title text-center">
+			<h2>Gallery Search Filter</h2><br>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<input id="myinput" type="text"  placeholder="Search..." class="form-control"><br><br>
+
+					<div class="portfolio-container" id="card">
+
+						<div class="col-md-4 portfolio-thumbnail  " >
+							<div class="card" id="card">
+								<img src="images/6.jpg" style="width: 100%">
+								<h4><b>Harley Davidson</b></h4>
+								<p>Bikes</p>
+							</div>
+						</div>
+
+	  <div class="col-md-4 portfolio-thumbnail all ">
+                <div class="card" id="card">
+				  <img src="images/1.jpg" alt="Avatar" style="width: 100%">
+				    <h4><b>BMW</b></h4> 
+				    <p>M5 CS cars</p> 
+				</div>
+            </div>
+
+
+            <div class="col-md-4 portfolio-thumbnail ">
+              	<div class="card" id="card">
+				  <img src="images/17.jpg" alt="Avatar"style="width: 100%">
+				    <h4><b>Bell & Ross</b></h4> 
+				    <p>Watches</p> 
+				</div>
+            </div>
+
+
+            <div class="col-md-4 portfolio-thumbnail ">
+              	<div class="card" id="card">
+				  <img src="images/15.jpg" alt="Avatar" style="width: 100%">
+				    <h4><b>Catier</b></h4> 
+				    <p>Watches</p> 
+				</div>
+            </div>
+
+
+
+            <div class="col-md-4 portfolio-thumbnail ">
+              	<div class="card" id="card">
+				  <img src="images/8.jpg" alt="Avatar" style="width: 100%">
+   					 <h4><b>Harley Davidson  </b></h4> 
+				    <p>Bikes</p> 
+				</div>
+            </div>
+
+
+
+            <div class="col-md-4 portfolio-thumbnail ">
+              	<div class="card" id="card">
+				  <img src="images/3.jpg" alt="Avatar" style="width: 100%">
+				    <h4><b>Bogati </b></h4> 
+				    <p> cars</p> 
+				</div>
+            </div>
+
+
+
+            <div class="col-md-4 portfolio-thumbnail ">
+              	<div class="card" id="card">
+				  <img src="images/7.jpg" alt="Avatar" style="width: 100%">
+    				<h4><b>Harley Davidson  </b></h4> 
+				    <p>Bikes</p>				
+				</div>
+            </div>
+
+
+
+            <div class="col-md-4 portfolio-thumbnail ">
+              	<div class="card" id="card">
+				  <img src="images/14.jpg" alt="Avatar" style="width: 100%">
+				    <h4><b>Panerai</b></h4> 
+				    <p>Watches</p> 
+				</div>
+            </div>
+
+
+
+            <div class="col-md-4 portfolio-thumbnail ">
+              	<div class="card" id="card">
+				  <img src="images/2.jpg" alt="Avatar" style="width: 100%">
+				    <h4><b>Lamborghini </b></h4> 
+				    <p>Cars</p> 
+				</div>
+            </div>
+
+
+
+            <div class="col-md-4 portfolio-thumbnail ">
+              	<div class="card" id="card">
+				  <img src="images/5.jpg" alt="Avatar" style="width: 100%">
+				    <h4><b>Porsche </b></h4> 
+				    <p>Cars</p> 
+				</div>
+            </div>
+
+
+
+            <div class="col-md-4 portfolio-thumbnail ">
+              	<div class="card" id="card">
+				  <img src="images/13.jpg" alt="Avatar" style="width: 100%">
+				    <h4><b>Rolex</b></h4> 
+				    <p>Watches</p> 
+				</div>
+            </div>
+
+
+
+            <div class="col-md-4 portfolio-thumbnail ">
+              	<div class="card" id="card">
+				  <img src="images/9.jpg" alt="Avatar" style="width: 100%">
+				    <h4><b>Harley Davidson  </b></h4> 
+				    <p>Bikes</p>  
+				</div>
+            </div>
+
+
+
+
+            <div class="col-md-4 portfolio-thumbnail ">
+              	<div class="card" id="card">
+				  <img src="images/4.jpg" alt="Avatar" style="width: 100%">
+				    <h4><b>BMW </b></h4> 
+				    <p>Cars</p> 
+				</div>
+            </div>
+
+
+
+            <div class="col-md-4 portfolio-thumbnail ">
+              	<div class="card" id="card">
+				  <img src="images/16.jpg" alt="Avatar" style="width: 100%">
+				    <h4><b>Blancpain</b></h4> 
+				    <p>Watches</p> 
+				</div>
+            </div>
+
+
+
+            <div class="col-md-4 portfolio-thumbnail ">
+              	<div class="card" id="card">
+				  <img src="images/10.jpg" alt="Avatar"style="width: 100%">
+				    <h4><b>Harley Davidson  </b></h4> 
+				    <p>Bikes</p>  
+				</div>
+            </div>
+
+
+
+            <div class="col-md-4 portfolio-thumbnail ">
+              	<div class="card" id="card">
+				  <img src="images/11.jpg" alt="Avatar" style="width: 100%">
+				    <h4><b>Harley Davidson  </b></h4> 
+				    <p>Bikes</p> 
+				</div>
+            </div>
+
+       		<div class="col-md-4 portfolio-thumbnail ">
+              	<div class="card" id="card">
+				  <img src="images/12.jpg" alt="Avatar" style="width: 100%">
+				    <h4><b>Audemars Piguet </b></h4> 
+				    <p>Watches</p> 
+				</div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
+</body>
+</html>

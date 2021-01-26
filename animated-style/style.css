@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* a {
+    color: #fff;
+} */
+
+.footer-area {
+    margin-top: 100px;
+    padding: 100px 0;
+    background: #2749c4;
+    background: -moz-linear-gradient(left, #2749c4 0%, #6085b2 100%);
+    background: -webkit-linear-gradient(left, #2749c4 0%, #6085b2 100%);
+    background: linear-gradient(to right, #2749c4 0%, #6085b2 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2749c4', endColorstr='#6085b2',GradientType=1 );
+    color: #fff;
+}
+
+
+.main {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.single-footer {
+    width: 230px;
+}
+
+.single-footer ul {
+    list-style: none;
+}
+
+.single-footer ul li {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.single-footer ul li a {
+    /* color: #333; */
+    color: #fff;
+    text-transform: capitalize;
+    /* text-decoration: navajowhite; */
+    text-decoration: none;
+}
+
+.single-footer ul li a i {
+  position: absolute;
+  left: 0;
+  top: 5px;
+}
+
+.single-footer:first-child {
+    width: 400px;
+}
+
+.single-footer h4 {
+    text-transform: capitalize;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.footer-social a {
+    /* color: #333; */
+    color: #fff;
+    /* border: 1px solid #333; */
+    border: 1px solid #fff;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.footer-social {
+    margin-top: 20px;
+}
+
+.copy {
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 50px;
+}

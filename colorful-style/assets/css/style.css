@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+.intro {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    /* background: linear-gradient(#ff6f69, #ffcc5c); */
+    /* background: radial-gradient(#ff6f69, #ffcc5c); */
+    /* background: conic-gradient(#ff6f69, #ffcc5c); */
+    /* background: linear-gradient(#ff6f69, #ffcc5c); */
+    /* background-image: linear-gradient(#ff6f69, #ffcc5c); */
+    /* background-color: linear-gradient(#ff6f69, #ffcc5c); */
+    /* background-color: #ff6f69; */
+    /* background: linear-gradient(#ff6f69, #ffcc5c, green); */
+    /* background: linear-gradient(#ff6f69 0%, #ff6f69 50%, #ffcc5c 100%); */
+    /* background: linear-gradient(#ff6f69 50%, #ffcc5c 100%); */
+    /* background: linear-gradient(#ff6f69 50px, #ffcc5c 100%); */
+    /* background: linear-gradient(#ff6f69 50%, #ffcc5c 100%); */
+    /* background: linear-gradient(#ff6f69 90%, #ffcc5c 100%); */
+    /* background: linear-gradient(#ff6f69 50%, #ffcc5c 50%,  #ffcc5c 100%); */
+    
+    /* background: linear-gradient(#ff6f69 50%, #ffcc5c 50%); */
+    /* background: linear-gradient(#ff6f69 45%, #ffcc5c 50%); */
+    /* background: linear-gradient(to bottom,#ff6f69 50%, #ffcc5c 50%); */
+    /* background: linear-gradient(to right,#ff6f69 50%, #ffcc5c 50%); */
+    /* background: linear-gradient(to top right,#ff6f69 50%, #ffcc5c 50%); */
+    /* background: linear-gradient(180deg,#ff6f69 50%, #ffcc5c 50%); */
+    /* background: linear-gradient(0deg,#ff6f69 50%, #ffcc5c 50%); */
+    /* background: linear-gradient(45deg,#ff6f69 50%, #ffcc5c 50%); */
+    /* background: linear-gradient(90deg,#ff6f69 50%, #ffcc5c 50%); */
+    /* background: linear-gradient(45deg,#ff6f69 50%, #ffcc5c 50%); */
+    /* background: linear-gradient(45deg,#ffcc5c 33%, transparent 35%); */
+    
+    /* background: linear-gradient(45deg,#ffcc5c 33%, transparent 35%), url(https://images.unsplash.com/photo-1510519138101-570d1dca3d66); */
+    
+    /* background: linear-gradient(45deg,#ffcc5c 33%, rgba(0,0,0,0.6) 35%), url(https://images.unsplash.com/photo-1510519138101-570d1dca3d66);
+    background-size: cover; */
+    
+    /* background: linear-gradient(45deg, #ff6f69 25%, #ffcc5c 25%, #ffcc5c 75%, #ff6f69 75%); */
+    /* background: linear-gradient(45deg, #ff6f69 25%, #ffcc5c 25%, #ffcc5c 50%, #ff6f69 50%,  #ff6f69 75%, #ffcc5c 75% ); */
+    
+    
+    /* background: repeating-linear-gradient(45deg, #ff6f69 0%,#ff6f69 5%, #ffcc5c 5%, #ffcc5c 10%); */
+    /* background: linear-gradient(45deg, #ffcc5c 25%, #3c3c3c 25%, #3c3c3c 50%, #ff6f69 50%, #ff6f69 75%, #96ceb4 75%); */
+    /* background: linear-gradient(45deg, #ffcc5c 25%, #3c3c3c 25% 50%, #ff6f69 50% 75%, #96ceb4 75%); */
+    /* background: linear-gradient(45deg, #ffcc5c 20%, #3c3c3c 20% 50%, #ff6f69 50% 80%, #96ceb4 80%); */
+    /* background: linear-gradient(225deg, #ffcc5c 20%, #3c3c3c 20% 50%, #ff6f69 50% 80%, #96ceb4 80%); */
+    background: linear-gradient(45deg, #ffcc5c 20%, #3c3c3c 20% 50%, #ff6f69 50% 80%, #96ceb4 80%);
+}
+
+.intro-body {
+    border: 5px solid #fff;
+    padding: 2rem 3rem;
+    background-color: rgba(0,0,0,0.2);
+}
+.intro h1 {
+    font-size: 4rem;
+    margin-bottom: 0.75rem;
+}
+.into p {
+    font-size: 1.75rem;
+}
+
+@media (max-width: 700px) {
+    html { font-size: 12px; }
+    .intro-body{ border: 3px solid #fff; padding: 1.5rem 2rem; }
+    .intro h1 { font-size: 2.5rem; }
+    .intro p { font-size: 1.25rem; }
+}

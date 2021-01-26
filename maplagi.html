@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cara Membuat Marker Maps Dengan Google maps API</title>
+	<script defer
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDy4bL90LkWd-9xI7wFAQL-33RTGISA_R4&callback=initMap">
+	</script>
+</head>
+<body>
+	<div id="googleMap" style="width:100%;height:380px;"></div>
+</body>
+<script type="text/javascript">
+	function initialize(){
+		var propertiPeta={
+			center:new google.maps.LatLng(-1.5187812,122.9853305),
+			zoom:5
+		}
+		var peta = new google.maps.Map(document.getElementById("googleMap"),propertiPeta);
+		// membuat marker
+		var marker = new google.maps.Marker({
+			position: new google.maps.LatLng(-6.2369327, 106.8413193),
+			map:peta,
+			animation: google.maps.Animation.BOUNCE
+		})
+	}
+	initialize();
+</script>
+</html>
